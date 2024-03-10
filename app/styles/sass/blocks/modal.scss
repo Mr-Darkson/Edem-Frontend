@@ -1,0 +1,25 @@
+.modal {
+    z-index: 1000000;
+    position: absolute;
+    font-family: forum-oh5, sans-serif;
+}
+
+.modal__container {
+    background-color: #35336c;
+    box-shadow: 0 0 0 8px rgba(#fff, .1);
+    border-radius: 0;
+}
+
+.modal__title {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.modal__close {
+    color: #fff;
+    opacity: 0.25;
+    transition: opacity .25s ease-in;
+    &:hover {
+        opacity: 1;
+    } 
+}
